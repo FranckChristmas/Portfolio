@@ -1,4 +1,6 @@
-h1
+/* commentaire: Page de styles pour portfolio*/
+.titre
 {
     color: blue;
+    font-size: 1.5em ;
 }
