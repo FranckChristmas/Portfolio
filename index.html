@@ -2,13 +2,36 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/header.css"> <!--CSS uiquement pour le header. A voir si on le met ensuite dans un seul CSS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <title>Franck Christmas</title>
+        <title>Site Portfolio</title>
 </head>
 <!--Ceci sera mon site portfolio-->
 <body>
-<h1>Franck Christmas' Portfolio </h1>
-    
+        <header role="header">
+                <nav class="menu" role="navigation">
+                        <div class="inner">
+                                <div class="m-left">
+                                        <h1 class="logo">Site Portfolio</h1>
+                                </div>
+                        
+                                <div class="m-right">
+                                        <a href="#" class="m-link">Home</a>
+                                        <a href="#" class="m-link">Experience</a>
+                                        <a href="#" class="m-link">Work</a>
+                                        <a href="#" class="m-link">Contact</a>
+                                </div>
+                                <div class="m-nav-toggle">
+                                        <span class="m-toggle-icon"></span> <!--balise conteneur en inline appelé dans le css pour le fonctionnement responsive-->
+                                </div>              
+                        </div>            
+                </nav>
 
+        </header>
+
+        </footer>
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
 </html>
