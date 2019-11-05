@@ -1,63 +1,52 @@
 /* couleur à utiliser pour le BG= #1b1f2a */
+/* font à utiliser notamment pour donner le même style que sur le CV de base:*/
+
 @font-face{
 font-family: 'oswald_regularregular';
-src: url('oswald-regular-webfont.woff2') format('woff2'),
-     url('oswald-regular-webfont.woff') format('woff');
+src: url('fonts/oswald-regular-webfont.woff2') format('woff2'),
+     url('fonts/oswald-regular-webfont.woff') format('woff');
 font-weight: normal;
 font-style: normal;
-@font-face {
-    font-family: 'oswaldextra-light';
-    src: url('oswald-extra-lightitalic-webfont.woff2') format('woff2'),
-         url('oswald-extra-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'gobold_high_thinregular';
-    src: url('gobold_high_thin-webfont.woff2') format('woff2'),
-         url('gobold_high_thin-webfont.woff') format('woff');
+    src: url('fonts/gobold_high_thin-webfont.woff2') format('woff2'),
+         url('fonts/gobold_high_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'goboldregular';
-    src: url('gobold_regular-webfont.woff2') format('woff2'),
-         url('gobold_regular-webfont.woff') format('woff');
+    src: url('fonts/gobold_regular-webfont.woff2') format('woff2'),
+         url('fonts/gobold_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'gobold_thinregular';
-    src: url('gobold_thin-webfont.woff2') format('woff2'),
-         url('gobold_thin-webfont.woff') format('woff');
+    src: url('fonts/gobold_thin-webfont.woff2') format('woff2'),
+         url('fonts/gobold_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
+@font-face {
+    font-family: 'oswaldextra-light'; /* extra light italic a priori*/
+    src: url('fonts/oswald-extra-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/oswald-extra-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'oswaldextralight';
-    src: url('oswald-extralight-webfont.woff2') format('woff2'),
-         url('oswald-extralight-webfont.woff') format('woff');
+    src: url('fonts/oswald-extralight-webfont.woff2') format('woff2'),
+         url('fonts/oswald-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
-} 
+body{
+    margin: 0;padding:0; /* à faire tout le temps pour supprimer les marges sur les cotés de la page web*/
+        background-color: #1b1f2a ;
+    font-family:'oswaldextralight', Arial, Sans-serif ;
+    color: #fff;
+}
